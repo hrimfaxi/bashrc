@@ -22,3 +22,9 @@ alias tl='transmission-remote -l'
 alias tld='tl|grep -v 100%'
 alias tlu='tl|grep -v "ID     Done       Have  ETA           Up    Down  Ratio  Status       Name"|grep -v "Sum: "|sort -n -k6 -r|grep -v Stopped|grep -v Idle|head -n20'
 alias youtube-dl='youtube-dl -f "bestvideo[ext=webm]+bestaudio[ext=webm]/bestvideo+bestaudio" --write-sub --write-auto-sub --sub-lang en'
+
+# easy navigation: .., ..., .... and .....
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
