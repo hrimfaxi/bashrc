@@ -3,7 +3,7 @@ alias gitpu='git fetch origin -v; git fetch upstream -v; git merge upstream/mast
 alias va='vagrant'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 
