@@ -19,3 +19,5 @@ HISTCONTROL=ignoreboth
 
 # Colors
 LS_COLORS="$LS_COLORS:di=00;33"
+
+export NMON='cndt'
