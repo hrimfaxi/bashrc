@@ -28,3 +28,5 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+
+alias ducks='du --max-depth=1 -h | sort -hr'
