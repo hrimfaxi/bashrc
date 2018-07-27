@@ -31,3 +31,5 @@ alias .....="cd ../../../.."
 
 alias ducks='du --max-depth=1 -h | sort -hr'
 alias dig=drill
+
+alias m='make -j $(nproc)'
