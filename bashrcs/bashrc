@@ -1,1 +1,3 @@
 source ~/.bash_runtime/bashrcs/main.bash
+neofetch
+export WINETRICKS_LATEST_VERSION_CHECK=disabled
